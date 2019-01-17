@@ -6,7 +6,7 @@ def main():
 	print("\n" + logo)
 	print("    v0.0.01 // 09.01.2019 // @cvasqxz\n")
 	addr1 = input("> Enter valid address #1: ")
-	addr2 = input("> Enter valid address #1: ")
+	addr2 = input("> Enter valid address #2: ")
 
 	addr1 = "cRomsSTmwGCn2aGSrxik26iqTf655juUBR"
 	addr2 = "coHGHzJSWLpUjbVrcNhKg4uckdfCDmNzU1"
