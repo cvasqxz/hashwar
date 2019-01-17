@@ -62,3 +62,6 @@ class character:
 
 		for i in attacks:
 			print("\t* %i (%s)" % (i['damage'], i['type']))
+
+	def isAlive(self):
+		return self.hp > 0
