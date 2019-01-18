@@ -22,7 +22,7 @@ def main():
 		print("- Player #%i Starts" % (firstTurn + 1))
 		turn = 1
 
-		while player1.hp > 0 and player2.hp > 0:
+		while player1.isAlive() and player2.isAlive():
 			print("\n- TURN #%i" % turn)
 			print("\t* HP: (%i) vs (%i)" % (player1.hp, player2.hp))
 
@@ -49,4 +49,3 @@ def main():
 
 if __name__ == '__main__':
 	main()
-		
